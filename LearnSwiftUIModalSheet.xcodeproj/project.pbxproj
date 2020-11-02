@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A126CDD82550A73500FC7566 /* LearnSwiftUIModalSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CDD72550A73500FC7566 /* LearnSwiftUIModalSheetApp.swift */; };
-		A126CDDA2550A73500FC7566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CDD92550A73500FC7566 /* ContentView.swift */; };
 		A126CDDC2550A73900FC7566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A126CDDB2550A73900FC7566 /* Assets.xcassets */; };
 		A126CDDF2550A73900FC7566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A126CDDE2550A73900FC7566 /* Preview Assets.xcassets */; };
 		A126CDEA2550A73900FC7566 /* LearnSwiftUIModalSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CDE92550A73900FC7566 /* LearnSwiftUIModalSheetTests.swift */; };
 		A126CDF52550A73900FC7566 /* LearnSwiftUIModalSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CDF42550A73900FC7566 /* LearnSwiftUIModalSheetUITests.swift */; };
+		A126CE032550A77700FC7566 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CE022550A77700FC7566 /* FirstView.swift */; };
+		A126CE052550A78200FC7566 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CE042550A78200FC7566 /* SecondView.swift */; };
+		A126CE072550A78D00FC7566 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126CE062550A78D00FC7566 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 /* Begin PBXFileReference section */
 		A126CDD42550A73500FC7566 /* LearnSwiftUIModalSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUIModalSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A126CDD72550A73500FC7566 /* LearnSwiftUIModalSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIModalSheetApp.swift; sourceTree = "<group>"; };
-		A126CDD92550A73500FC7566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A126CDDB2550A73900FC7566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A126CDDE2550A73900FC7566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A126CDE02550A73900FC7566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		A126CDF02550A73900FC7566 /* LearnSwiftUIModalSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSwiftUIModalSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A126CDF42550A73900FC7566 /* LearnSwiftUIModalSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIModalSheetUITests.swift; sourceTree = "<group>"; };
 		A126CDF62550A73900FC7566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A126CE022550A77700FC7566 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		A126CE042550A78200FC7566 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		A126CE062550A78D00FC7566 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				A126CDD72550A73500FC7566 /* LearnSwiftUIModalSheetApp.swift */,
-				A126CDD92550A73500FC7566 /* ContentView.swift */,
 				A126CDDB2550A73900FC7566 /* Assets.xcassets */,
 				A126CDE02550A73900FC7566 /* Info.plist */,
 				A126CDDD2550A73900FC7566 /* Preview Content */,
+				A126CE022550A77700FC7566 /* FirstView.swift */,
+				A126CE042550A78200FC7566 /* SecondView.swift */,
+				A126CE062550A78D00FC7566 /* ThirdView.swift */,
 			);
 			path = LearnSwiftUIModalSheet;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A126CDDA2550A73500FC7566 /* ContentView.swift in Sources */,
+				A126CE072550A78D00FC7566 /* ThirdView.swift in Sources */,
+				A126CE032550A77700FC7566 /* FirstView.swift in Sources */,
+				A126CE052550A78200FC7566 /* SecondView.swift in Sources */,
 				A126CDD82550A73500FC7566 /* LearnSwiftUIModalSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
